@@ -1,0 +1,17 @@
+annotations:
+  catalog.cattle.io/namespace: fleet-default
+  catalog.cattle.io/type: cluster-template
+apiVersion: v2
+description: Cluster template for rke2
+home: https://jugit.fz-juelich.de/iek-10/public/ict-platform/deployment/kubernetes/helm-charts
+icon: https://www.fz-juelich.de/icon.svg
+kubeVersion: '>=v1.26.0'
+maintainers:
+- email: m.schroeder@fz-juelich.de
+  name: Marcel Schröder
+name: rke2-cluster-templates
+sources:
+- https://artifacthub.io/packages/helm/rancher-cluster-templates/rancher-cluster-templates
+- https://github.com/rancher/cluster-template-examples/tree/main
+type: application
+version: 2.0.1
